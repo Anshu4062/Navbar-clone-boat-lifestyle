@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boat Website Clone</title>
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./boatNavbar.css" />
+    <!-- icon links -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <!-- navbar start -->
+      <nav>
+        <div class="left-child">
+          <div class="logo">
+            <img src="./images/icons/logo.svg" alt="Boat logo" />
+          </div>
+          <div class="nav-list">
+            <ul id="main">
+              <li>
+                <a href="#">Categories<ul class="drop">
+                  <div>
+                  <li>Earphones</li>
+                  <li>Headphones</li>
+                  <li>Speakers</li>
+                  </div>
+                </ul>
+                  <img
+                    src="./images/icons/arrow-1.svg"
+                    alt=""
+                    class="arrow-down"
+                /></a>
+              </li>
+              <li>
+                <a href="#">boAt Personalisation</a>
+              </li>
+              <li>
+                <a href="#">Gift with boAt</a>
+              </li>
+              <li>
+                <a href="#">Corporate Orders</a>
+              </li>
+              <li>
+                <a style="margin-right: 30px" href="#"
+                  >More<ul class="drop" style="left: -750px; width: 1600px;">
+                    <div>
+                    <li>Daily Deals</li>
+                    <li>Blogs</li>
+                    <li>Refer & Earn</li>
+                    <li>Careers</li>
+                    <li>Social</li>
+                    <li>Responsibility</li>
+                    <li>Store</li>
+                    <li>Locator</li>
+                    <li>boAt</li>
+                    <li>Community</li>
+                    </div>
+                  </ul>
+                  
+                  <img
+                    src="./images/icons/arrow-1.svg"
+                    alt=""
+                    class="arrow-down"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-child">
+          <div class="search-bar">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/search_558f3ad8-0ef9-4a9b-8576-a396b44aacd8.png?v=1680091847"
+              alt="search"
+              class="nav-icon"
+            />
+            <input type="text" placeholder="Search" />
+          </div>
+          <div class="right-child-icons">
+            <button class="login-btn">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Profile-1.png?v=1663762989"
+                alt=""
+                class="nav-icon login-img"
+              />
+            </button>
+            <button>
+              <img src="./images/icons/bag.svg" alt="" class="nav-icon" />
+            </button>
+          </div>
+          <div class="login-modal">
+            <div class="login-modal-heading">
+              <p>Hi boAthead!</p>
+              <button class="login-modal-close">X</button>
+            </div>
+            <div><button class="open-login-modal">Login</button></div>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+    </header>
+    <!-- header end -->
+
+    <!-- login modal wrapper start-->
+    <div class="login-modal-wrapper">
+      <div class="login-modal-container">
+        <div class="login-modal-top-heading">
+          <p>
+            Get <b>Started</b> <button class="close-modal-wrapper">X</button>
+          </p>
+          <p>Please enter your Mobile Number to continue</p>
+        </div>
+        <div class="login-form-wrapper">
+          <form>
+            <div class="form-feild">
+              <label for="">Enter Mobile Number</label>
+              <input
+                type="number"
+                placeholder="+91 Type Here"
+                class="mobile-number"
+              />
+            </div>
+            <button type="submit" class="send-otp-btn">SEND OTP</button>
+          </form>
+          <p class="login-describtion">
+            By Confirming, you agree to boAt's Terms and Conditions and Privacy
+            Policy.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- login modal wrapper end-->
+
+    <!-- custom js link -->
+    <script src="./login_modal.js"></script>
+  </body>
+</html>
